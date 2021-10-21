@@ -11,7 +11,31 @@
 - [Faker](https://www.npmjs.com/package/faker)
 
 
+## ⚙️ Configurações de Ambiente
 
+### 🔨 Configurações no Docker
+
+1 - Possuir Docker Instalado na máquina [Instalação do Docker](https://docs.docker.com/get-docker/);
+
+2 - Clonar o Repositório que possui o Gitlab CE instalado pois ele é o app 
+que será testado por nossa aplicação;
+
+```bash
+# Comando de Clone do docker
+$ docker run --publish 80:80 --publish 22:22 --hostname localhost wlsf82/gitlab-ce
+``` 
+3 - Aguarde o fim da publicaçao do container e Configurações no docker terminadas; 
+
+<br/>
+
+### 🔨 Configurações no GitLab
+1 - Agora é necessário acessar o GitLab CE dentro do container então acesse [http://localhost/](http://localhost/), no seu browser;
+
+2 - Agora será necessário definir uma senha para o usuário ***root*** do gitlab, então defina a senha de sua preferência;
+
+3 - 
+
+<br/>
 
 ## 🔗 Referências
 
