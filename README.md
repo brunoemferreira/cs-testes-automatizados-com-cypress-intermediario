@@ -1,5 +1,9 @@
-# Curso Udemy - Testes automatizados com Cypress (intermediário)
+<img align="center" scr="https://github.com/brunoeduardoferreira/cs-testes-automatizados-com-cypress-basico/blob/main/assets/cypress_logo.png"/>
 
+<h1 align="center"> Curso Udemy - Testes automatizados com Cypress (intermediário) </h1>
+
+## 🚀 Sobre o Testes
+Será desenvolvida uma palicação de testes com cypress que efetuará testes de GUI no gitalb CE que está hoepedado no container do docker, 
 
 ## Ferramentas e Bibliotecas
 
@@ -10,6 +14,7 @@
 - [Cypress](https://docs.cypress.io)
 - [Faker](https://www.npmjs.com/package/faker)
 
+<br/>
 
 ## ⚙️ Configurações de Ambiente
 
