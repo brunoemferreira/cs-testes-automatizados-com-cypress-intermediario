@@ -38,9 +38,28 @@ $ docker run --publish 80:80 --publish 22:22 --hostname localhost wlsf82/gitlab-
 
 2 - Agora será necessário definir uma senha para o usuário ***root*** do gitlab, então defina a senha de sua preferência;
 
-3 - 
+3 - Faça login com o usuário root com a senha definida na seção anterior
+
+4 - Clique no avatar do usuário no canto superior direito da tela, clique no link Settings, e então clique o menu lateral esquerdo na opção Access Tokens
+
+5 - No campo nome, digite o valor curso-cypress-intermediario, na seção Scopes marque a opção 'api', e então clique no botão 'Create personal access token'
+
+6 - Uma mensagem de que o token foi criado com sucesso deve ser exibida, além do token propriamente dito. Copie o token clicando no botão à direita do campo e guarde-o.
+
+7 - Gerar Access Token
 
 <br/>
+
+## Rodando o projeto 
+```bash
+
+$ npx cypress run
+
+```
+
+
+<br/>
+
 
 ## 🔗 Referências
 
